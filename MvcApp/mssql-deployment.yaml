@@ -30,7 +30,6 @@ spec:
       - name: mssql-persistent-storage
         persistentVolumeClaim:
           claimName: mssql-pv-claim
-      
 ---
 apiVersion: v1
 kind: Service
